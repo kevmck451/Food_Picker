@@ -13,6 +13,8 @@ class Suggestion:
             filter_list = [place for place in places_list if place.takeout]
         elif filter == 'Classics':
             filter_list = [place for place in places_list if 'classic' in place.tags_list]
+        elif filter == 'Sit Down':
+            filter_list = [place for place in places_list if place.sitdown]
         else:
             filter_list = [place for place in places_list if place.date_night]
 
@@ -20,13 +22,9 @@ class Suggestion:
 
     def make_suggestion(self, place_list):
         # Generate a random integer between start and end (inclusive)
-        index1 = random.randint(0, len(place_list)-1)
-        index2 = random.randint(0, len(place_list)-1)
-        while index2 == index1:
-            index2 = random.randint(0, len(place_list) - 1)
-        index3 = random.randint(0, len(place_list) - 1)
-        while (index3 == index1) and (index3 == index2):
-            index3 = random.randint(0, len(place_list)-1)
+        # Generate a random sample of unique indices
+        indices = random.sample(range(len(place_list)), 3)
+        index1, index2, index3 = indices
 
         # print(index1, index2, index3)
 

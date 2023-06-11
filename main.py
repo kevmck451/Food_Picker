@@ -31,6 +31,7 @@ def process():
     else:
         if filter_preference == 'filter1': fil = 'Classics'
         elif filter_preference == 'filter2': fil = 'Take Out'
+        elif filter_preference == 'filter3': fil = 'Sit Down'
         else: fil = 'Date Night'
 
         filter_result = sug.filter(fil)
