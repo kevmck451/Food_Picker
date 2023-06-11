@@ -1,7 +1,7 @@
 # Code to deal with making a suggestion
 
 import random
-from places import *
+from Eatery.places import *
 
 
 class Suggestion:

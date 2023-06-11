@@ -1,5 +1,5 @@
-from places import *
-from suggestion import Suggestion
+from Eatery.places import *
+from Eatery.suggestion import Suggestion
 from flask import Flask, render_template, redirect, url_for, request, session
 
 app = Flask(__name__)

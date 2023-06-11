@@ -1,6 +1,6 @@
 # All Places hardcoded
 
-from eatery import Eatery
+from Eatery.eatery import Eatery
 
 # name / category / takeout / sitdown / top dollar / date night
 
