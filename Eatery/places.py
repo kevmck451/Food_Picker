@@ -1,0 +1,65 @@
+# All Places hardcoded
+
+from eatery import Eatery
+
+# name / category / takeout / sitdown / top dollar / date night
+
+Shanghai_House = Eatery('Shanghai House', 'Asian', True, False, False, False, ['classic', 'chicken'])
+Taco_Fiesta = Eatery('Taco Fiesta', 'Mexican', False, True, False, False, [])
+Dominos = Eatery('Dominos', 'Pizza', True, False, False, False, ['classic', 'lava cakes'])
+Lost_Pizza_Company = Eatery('Lost Pizza Company', 'Pizza', False, True, False, False, [])
+Top_Shelf_Grill = Eatery('Top Shelf Grill', 'Fancy', False, True, True, True, ['atmosphere'])
+Georgia_Blue = Eatery('Georgia Blue', 'Fancy', False, True, False, True, [])
+Tekila = Eatery('Tekila', 'Fancy', False, True, True, True, ['atmosphere'])
+Grill_House = Eatery('Grill House', 'Fancy', False, True, True, True, ['atmosphere', 'steak'])
+Staks = Eatery('Staks', 'Brunch', False, True, False, False, ['bacon', 'pancakes', 'eggs', 'hashbrowns'])
+Slim_Chickens = Eatery('Slim Chickens', 'Fast Food', True, True, False, False, ['classic', 'fries', 'chicken', 'ranch'])
+Central_BBQ = Eatery('Central BBQ', 'BBQ', False, True, False, False, [])
+McDonalds = Eatery('McDonalds', 'Fast Food', True, True, False, False, ['burgers', 'nuggets', 'fries', 'shakes'])
+Rancho_Grande = Eatery('Rancho Grande', 'Mexican', False, True, False, False, ['margaritas'])
+Chickfila = Eatery('Chickfila', 'Fast Food', True, True, False, False, ['classic', 'fries', 'chicken', 'nuggets', 'shakes', 'pickles', 'spicy'])
+Whataburger = Eatery('Whataburger', 'Fast Food', True, True, False, False, ['classic', 'fries', 'shakes', 'burgers'])
+Marcos = Eatery('Marcos', 'Pizza', True, False, False, False, ['pepperoni magnifico'])
+Newks = Eatery('Newks', 'Sandwich', True, True, False, True, ['classic', 'atmosphere', 'soup', 'sandwiches', 'honey mustard'])
+Sonic = Eatery('Sonic', 'Fast Food', True, False, False, False, ['classic', 'burgers', 'fries', 'chicken', 'tots', 'shakes'])
+Subway = Eatery('Subway', 'Sandwich', False, True, False, True, ['sandwiches'])
+Lennys = Eatery('Lennys', 'Sandwich', False, True, False, True, ['sandwiches'])
+Mi_Peblo = Eatery('Mi Peblo', 'Mexican', False, True, False, False, ['margaritas'])
+Tyoko_Grill = Eatery('Tyoko Grill', 'Asian', True, False, False, False, ['classic', 'sushi', 'fried rice'])
+Pizza_Hut = Eatery('Pizza Hut', 'Pizza', True, False, False, False, ['stuffed crust'])
+Taco_Bell = Eatery('Taco Bell', 'Fast Food', True, False, False, False, ['classic'])
+Little_Caesars = Eatery('Little Caesars', 'Pizza', True, False, False, False, ['classic', 'cheesy bread'])
+Wendys = Eatery('Wendys', 'Fast Food', True, False, False, False, ['classic','shakes', 'spicy'])
+Corkys = Eatery('Corkys', 'BBQ', False, True, False, False, ['atmosphere'])
+Mug_Shots = Eatery('Mug Shots', 'Burgers', False, True, False, False, [])
+Hueys = Eatery('Hueys', 'Burgers', False, True, False, True, ['atmosphere', 'tots', 'steak', 'ranch'])
+Outback = Eatery('Outback', 'Fancy', False, True, False, True, ['atmosphere', 'bloomin onion', 'steak'])
+Akita = Eatery('Akita', 'Asian', False, True, False, False, ['sushi', 'fried rice', 'atmosphere'])
+OCharleys = Eatery('OCharleys', 'Restaurant', False, True, False, False, ['chicken', 'soup', 'honey mustard'])
+Chilis = Eatery('Chilis', 'Restaurant', False, True, False, False, ['queso'])
+Kubla_Khan = Eatery('Kubla Khan', 'Fancy', False, True, False, True, ['atmosphere', 'fried rice'])
+El_Agave = Eatery('El Agave', 'Mexican', False, False, True, True, ['atmosphere', 'spicy', 'margaritas'])
+Red_Lobster = Eatery('Red Lobster', 'Restaurant', False, True, False, True, ['seafood', 'biscuits', 'soup'])
+Olive_Garden = Eatery('Olive Garden', 'Restaurant', False, True, False, True, ['breadsticks', 'alfredo sauce'])
+Marias_Cantinda = Eatery('Marias Cantinda', 'Mexican', False, True, False, True, ['margaritas'])
+Buffalo_Wild_Wings = Eatery('Buffalo Wild Wings', 'Wings', False, True, False, False, ['chicken', 'wings'])
+Mr_Ps = Eatery('Mr Ps', 'Wings', True, True, False, False, ['chicken', 'wings'])
+CiCis = Eatery('CiCis', 'Pizza', False, True, False, False, ['buffet'])
+McAlisters = Eatery('McAlisters', 'Restaurant', False, True, False, False, ['sandwiches', 'soup'])
+Long_Horn = Eatery('Long Horn', 'Restaurant', False, True, False, True, ['steak'])
+Pyros = Eatery('Pyros', 'Pizza', True, True, False, True, ['spicy', 'ranch'])
+Wayback_Burger = Eatery('Wayback Burger', 'Burgers', False, True, False, True, ['fries', 'shake'])
+Wolfriver_Brisket = Eatery('Wolfriver Brisket', 'BBQ', False, True, False, False, [])
+Red_Fish = Eatery('Red Fish', 'Asian', False, True, False, True, ['sushi', 'fried rice', 'atmosphere'])
+Applebees = Eatery('Applebees', 'Restaurant', False, True, False, True, ['atmosphere'])
+Panera = Eatery('Panera', 'Restaurant', False, True, False, False, ['sandwiches', 'soup'])
+Waffle_House = Eatery('Waffle House', 'Breakfast', False, True, False, False, ['fear', 'danger', 'bacon', 'pancakes', 'eggs', 'hashbrowns'])
+Belmont_Grill = Eatery('Belmont Grill', 'Burgers', True, True, False, True, ['atmosphere', 'burgers'])
+Sakura = Eatery('Sakura', 'Asian', True, True, True, True, ['classic', 'sushi'])
+Flight = Eatery('Flight', 'Fancy', False, True, True, False, ['atmosphere'])
+
+places_list = [Shanghai_House, Taco_Fiesta, Dominos, Lost_Pizza_Company, Top_Shelf_Grill, Georgia_Blue, Tekila, Grill_House, Staks, Slim_Chickens,
+               Central_BBQ, McDonalds, Rancho_Grande, Chickfila, Whataburger, Marcos, Newks, Sonic, Subway, Lennys, Mi_Peblo, Tyoko_Grill,
+               Pizza_Hut, Taco_Bell, Little_Caesars, Wendys, Corkys, Mug_Shots, Hueys, Outback, Akita, OCharleys, Chilis, Kubla_Khan,
+               El_Agave, Red_Lobster, Olive_Garden, Marias_Cantinda, Buffalo_Wild_Wings, Mr_Ps, CiCis, McAlisters, Long_Horn, Pyros,
+               Wayback_Burger, Wolfriver_Brisket, Red_Fish, Applebees, Panera, Waffle_House, Belmont_Grill, Sakura, Flight]

@@ -1,0 +1,34 @@
+body {
+    font-size: 48px;
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+input[type="submit"] {
+    font-size: 48px;
+}
+
+.filter-button {
+    font-size: 48px;
+    /* Add any other desired styles */
+}
+
+.container {
+    text-align: center;
+}
+
+.filter-button {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+}
+
+.filter-button.active {
+    background-color: #555;
+    color: #fff;
+}

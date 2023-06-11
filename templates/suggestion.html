@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Picker</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1><strong><u>Suggestions:</u></strong></h1>
+    <h2>1. {{ r1 }}</h2>
+    <h6>Tags: {{ r1_tags }} </h6>
+    <h2>2. {{ r2 }}</h2>
+    <h6>Tags: {{ r2_tags }} </h6>
+    <h2>3. {{ r3 }}</h2>
+    <h6>Tags: {{ r3_tags }} </h6>
+    <form action="/gohome" method="post">
+        <input type="submit" value="Reset">
+    </form>
+</div>
+</body>
+</html>
