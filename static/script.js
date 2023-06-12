@@ -20,3 +20,4 @@ function toggleFilter(buttonId) {
         selectedFilterInput_2.value = buttonId;
     }
 }
+

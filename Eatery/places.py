@@ -63,3 +63,5 @@ places_list = [Shanghai_House, Taco_Fiesta, Dominos, Lost_Pizza_Company, Top_She
                Pizza_Hut, Taco_Bell, Little_Caesars, Wendys, Corkys, Mug_Shots, Hueys, Outback, Akita, OCharleys, Chilis, Kubla_Khan,
                El_Agave, Red_Lobster, Olive_Garden, Marias_Cantinda, Buffalo_Wild_Wings, Mr_Ps, CiCis, McAlisters, Long_Horn, Pyros,
                Wayback_Burger, Wolfriver_Brisket, Red_Fish, Applebees, Panera, Waffle_House, Belmont_Grill, Sakura, Flight]
+
+
