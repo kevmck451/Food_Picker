@@ -32,3 +32,15 @@ input[type="submit"] {
     background-color: #555;
     color: #fff;
 }
+
+.scrollable-div {
+    max-height: 1100px;  /* Or whatever maximum height you want */
+    overflow-y: auto;   /* Enable vertical scrolling */
+    margin: 60px;       /* Optional: Adds some space around the div */
+    padding: 40px;      /* Optional: Adds some space between the border and the content */
+    border: 1px solid #ccc;  /* Optional: Adds a border around the div */
+}
+
+ul {
+    list-style-type: none;
+}

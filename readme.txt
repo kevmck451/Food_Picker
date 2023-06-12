@@ -21,7 +21,7 @@ Ending Process to Update:
 
 ps aux | grep "python3" | grep "main.py" | grep -v grep
 
-# End Program
+# get PID number and End Program
 
 kill 1295
 

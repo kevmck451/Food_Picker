@@ -13,10 +13,20 @@
     <button id="filter2" class="filter-button" onclick="toggleFilter('filter2')">Take Out</button>
     <button id="filter3" class="filter-button" onclick="toggleFilter('filter3')">Sit Down</button>
     <button id="filter4" class="filter-button" onclick="toggleFilter('filter4')">Date Night</button>
+    <p></p>
+    <button id="filter5" class="filter-button" onclick="toggleFilter('filter5')">Chicken</button>
+    <button id="filter6" class="filter-button" onclick="toggleFilter('filter6')">Burgers</button>
+    <button id="filter7" class="filter-button" onclick="toggleFilter('filter7')">Spicy</button>
+    <button id="filter8" class="filter-button" onclick="toggleFilter('filter8')">Atmosphere</button>
     <p>&nbsp;</p>
     <form action="/process" method="post">
         <input type="hidden" id="selectedFilter" name="filter" value="">
         <input type="submit" value="Get Suggestion">
+    </form>
+    <p>&nbsp;</p>
+    <form action="/full_list" method="post">
+        <input type="hidden" id="selectedFilter_2" name="filter_full" value="">
+        <input type="submit" value="Full List">
     </form>
 </div>
 </body>

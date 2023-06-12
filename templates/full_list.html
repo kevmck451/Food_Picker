@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Food Picker: Suggestion</title>
+    <title>Food Picker: Full List</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
 <div class="container">
-    <h1><strong><u>Suggestions:</u></strong></h1>
-    <h2>1. {{ r1 }}</h2>
-    <h6>Tags: {{ r1_tags }} </h6>
-    <h2>2. {{ r2 }}</h2>
-    <h6>Tags: {{ r2_tags }} </h6>
-    <h2>3. {{ r3 }}</h2>
-    <h6>Tags: {{ r3_tags }} </h6>
+    <h1><strong><u>Full List:</u></strong></h1>
+    <div class="scrollable-div">
+        <ul>
+            {% for item in all_results %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
     <form action="/gohome" method="post">
         <input type="submit" value="Reset">
     </form>
