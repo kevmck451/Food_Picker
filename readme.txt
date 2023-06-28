@@ -1,10 +1,14 @@
 Food Picker
 
 # ssh into pi
+# use current pi IP address
 
 ssh pi@192.168.0.145
 
-# cd to home directory (~): Install & Run
+# message might come up about unknown host. enter yes
+# password is drpepper
+
+# cd to home directory (~)
 
 git clone https://github.com/kevmck451/Food_Picker
 
@@ -21,7 +25,7 @@ Ending Process to Update:
 
 ps aux | grep "python3" | grep "main.py" | grep -v grep
 
-# get PID number and End Program
+# End Program
 
 kill 1295
 
@@ -29,4 +33,5 @@ kill 1295
 
 sudo rm -rf Food_Picker
 
-# install from git and run again
+# update and run again
+
