@@ -1,9 +1,9 @@
 Food Picker
 
 # ssh into pi
-# use current pi IP address
+# use current pi IP address - should be static now
 
-ssh pi@192.168.0.145
+ssh pi@192.168.0.139
 
 # message might come up about unknown host. enter yes
 # password is drpepper
